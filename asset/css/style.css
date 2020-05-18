@@ -1,0 +1,130 @@
+/* Si el tamaño de la pantalla es de 576px o más, ajusta:*/
+@media only screen and (min-width: 576px) {
+  h1{
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    }
+
+}
+
+/* Si el tamaño de la pantalla es de 576px o menos, ajusta el tamaño de la fuente: */
+@media only screen and (max-width: 576px) {
+  h1 {
+    width:auto;
+    font-size: 25px;
+    text-align: center;
+    /* padding-left: 0px;
+    padding-bottom: 0px; */
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    /* margin: 0 auto; */
+
+    }
+  .container {
+    width: 80%;
+    margin: 0 auto;   border: 1px solid red;
+  }
+}
+ body {
+  font-family: 'Cabin', sans-serif;
+ }
+
+h2 {
+font-family: 'Cabin', sans-serif;
+font-size: 50px;
+font-weight: 700;
+/* border: 1px solid green; */
+}
+
+h3 {
+font-family: 'Lobster', sans-serif;
+font-size: 37px;
+/* border: 1px solid red; */
+}
+
+h5 {
+font-family: 'Cabin', sans-serif;
+font-size: 30px;
+/* border: 1px solid red; */
+}
+
+h6 {
+font-family: 'Cabin', sans-serif;
+font-size: 1.25rem;
+color: #373A3C;
+font-weight: 700;
+/* border: 1px solid green; */
+}
+
+article p {
+font-size: 20px;
+font-style: 'Cabin', sans-serif;
+}
+
+.carousel-indicators li {
+background-color: #373A3C;
+width: 10px;
+height: 10px;
+border-radius: 100%;
+}
+
+.carousel-indicators {
+  top:200px;
+}
+
+/* .carousel-item { */
+border:10px solid purple;
+}
+
+/* .row { */
+border:1px solid green;
+
+}
+#carouselExampleIndicators {
+
+}
+ul li {
+list-style: none;
+font-family: 'Cabin', sans-serif;
+font-size: 20px;
+color: #373A3C;
+}
+
+ol li {
+list-style: none;
+font-family: 'Cabin', sans-serif;
+font-size: 20px;
+color: #373A3C;
+}
+
+.newsletter span {
+font-family: 'Lobster', sans-serif;
+}
+
+.newsletter button {
+border: 1px solid white;
+}
+
+.container-fluid {
+height: 534px;
+}
+
+.card p {
+color: #373A3C!important;
+font-size: 16px;
+}
+
+}
+.card h6 {
+color: #373A3C!important;
+font-size: 23px;
+}
+
+.linea {
+border: 1px solid #000000;
